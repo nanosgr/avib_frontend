@@ -14,6 +14,8 @@ import ProductosPage from './pages/ProductosPage';
 
 
 function App() {
+  const url = process.env.REACT_APP_REDIRECT_BACKEND;
+  console.log(url);
   return (
     <div className="App">
       <Header />

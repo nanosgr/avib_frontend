@@ -18,6 +18,9 @@ const Nav = (props) => {
                     <li>
                         <NavLink to="/contacto" className={({isActive}) => isActive ? 'activo' : undefined }>Contacto</NavLink>
                     </li>
+                    <li>
+                        <NavLink to='http://localhost:3000/admin/login/'>Ingreso</NavLink>
+                    </li>
                 </ul>
             </div>
         </nav>
